@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informações Equipe</title>
+</head>
+<body>
+    <div style= "padding-top: 4%; padding-left: 7%; padding-right: 7%" >
+        <span>
+            <table>
+                <tr> 
+                    <td colspan="2" align="center"> <img src="./logo.jpg" height="170px" width="170px"> </td> 
+                    <td rowspan="2" align="left" style="padding-left: 50px"> 
+                        <strong>Coordenador(a)</strong>: <%= coordenador %> <br>
+                        <strong>Receptor(a)</strong>: <%= receptor %> <br>
+                        <strong>Contato</strong>: (83) 9 9999-9999 <br>
+                        <strong>Email</strong>: email.empresa@gmail.com
+                    </td>
+                </tr>
+            </table>
+        </span>
+
+        <div>
+            <h3>Informações Pessoais:</h3>
+            <p>Nome: <%= nome %> </p>
+            <p>CPF: <%= cpf %> </p>
+            <p>RG: <%= rg %> </p>
+            <p>Gênero: <%= genero %> </p>
+            <p>Estado Civil: <%= estado_civil %> </p>
+        </div>
+        <div>
+            <h3>Informações de Contato:</h3>
+            <p>Email: <%= email %> </p>
+            <p>Telefone: <%= telefone %> </p>
+            <p>Telefone2: <%= telefone_opcional %> </p>
+        </div>
+        <div>
+            <h3>Endereço:</h3>
+            <p>Rua: <%= rua %> </p>
+            <p>Número: <%= numero %> </p>
+            <p>Bairro: <%= bairro %> </p>
+            <p>Cidade: <%= cidade %> </p>
+            <p>UF: <%= uf %> </p>
+            <p>CEP: <%= cep %> </p>
+            <p>Complemento: <%= complemento %> </p>
+        </div>
+        <div>
+            <h3>Informações do Caso:</h3>
+            <p>Histórico: <%= historico %> </p>
+            <p>Observações: <%= observacoes %> </p>
+            <p>Tipo de Caso: <%= tipo_caso %> </p>
+        </div>
+
+    </div>
+</body>
+</html>
